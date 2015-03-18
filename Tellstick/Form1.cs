@@ -47,6 +47,7 @@ namespace Tellstick
             {
                 return;
             }
+            // Get all devices from JSON
             DeviceContainer allDevices = JSONHelper.Deserialise<DeviceContainer>(deviceJson);
 
             flowLayoutPanel1.Controls.Clear();
